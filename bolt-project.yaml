@@ -1,0 +1,3 @@
+name: boltshop
+inventoryfile: ./inventory.yaml
+modulepath: ./modules
