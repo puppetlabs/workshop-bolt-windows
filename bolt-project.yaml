@@ -1,3 +1,5 @@
+---
 name: boltshop
-inventoryfile: ./inventory.yaml
-modulepath: ./modules
+inventoryfile: "./inventory.yaml"
+modulepath: 
+  - "./modules"
