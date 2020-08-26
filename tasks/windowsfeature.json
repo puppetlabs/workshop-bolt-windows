@@ -2,11 +2,11 @@
 	"description": "Installs a Windows Feature",  
 	"parameters": {  
   	"action": {  
-    	"description": "The action to take. Install or Uninstall",  
+    	"description": "The action to take. 'install' or 'uninstall'.",  
     	"type": "Enum['install','uninstall']"  
 		},
 		"feature": {  
-    	"description": "The action to take. Install or Uninstall",  
+    	"description": "The windows feature to perform the action on.",  
     	"type": "String"  
   	}     
 
