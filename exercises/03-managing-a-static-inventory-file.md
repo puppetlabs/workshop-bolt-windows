@@ -22,14 +22,14 @@ groups:
 
 - Open a shell and change to the boltshop directory.
 
-- From your shell, run `bolt inventory show -t windows`
+- From your shell, run `bolt inventory show --targets windows`
 
 
 
 Sample Output:
 
 ```
-PS C:\code\boltshop> bolt inventory show -t windows
+PS C:\code\boltshop> bolt inventory show 
 boltshop99.classroom.puppet.com
 1 target
 ```

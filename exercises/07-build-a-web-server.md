@@ -6,6 +6,6 @@
 
   - Run `bolt plan show boltshop::build_webserver`
 
-  - Run `bolt plan run boltshop::build_webserver –t www`
+  - Run `bolt plan run boltshop::build_webserver --targets www`
 
   - When completed, visit `http://<your_webserver>`

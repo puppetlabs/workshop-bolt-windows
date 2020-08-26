@@ -12,7 +12,7 @@
 
   - Save the file
 
-  - Run the following: `bolt plan run boltshop::build_webserver -t www`
+  - Run the following: `bolt plan run boltshop::build_webserver --targets www`
 
   - You should see resources changed. Now RDP to your server.
 
