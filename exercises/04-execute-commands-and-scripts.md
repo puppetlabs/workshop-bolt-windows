@@ -6,7 +6,7 @@
 
 - From your shell, run  `bolt command run 'write-output "hello world!"' –t windows`
 
-- From your shell, run `bolt script run examples/helloworld.ps1 -targets windows`
+- From your shell, run `bolt script run examples/helloworld.ps1 --targets windows`
 
 Sample Output:
 
