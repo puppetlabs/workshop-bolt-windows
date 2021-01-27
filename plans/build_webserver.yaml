@@ -8,16 +8,16 @@ parameters:
 
 steps:
   - task: boltshop::windowsfeature
-    description: "Installs the IIS Windows Feature"
+    description: "Installing IIS Windows Feature"
     targets: "$targets"
     parameters:
       action: install
       feature: Web-WebServer
   - command: "if !(Test-Path C:\\inetpub\\mywebsite) {New-Item -ItemType Directory C:\\inetpub\\mywebsite -Force}"
-    description: "Creating new website directory."
+    description: "Creating new website directory"
     targets: $targets
   - upload: boltshop/mywebsite
-    description: "Uploading the website to the appropriate folder."
+    description: "Uploading the website to the appropriate folder"
     destination: "C:\\inetpub"
     targets: $targets
   - name: iis
